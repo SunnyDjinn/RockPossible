@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<!-- Stylesheet -->
+		<link rel="stylesheet" href="Impossible.css"/>
+		
+		<!-- Javascript Sheets -->
+		<script src="jquery-2.1.4.min.js"></script>
+		<script src="Game.js"></script>
+		<script src="Globals.js"></script>
+		<script src="Measures.js"></script>
+		<script src="MainSquare.js"></script>
+		<script src="Module.js"></script>
+		<script src="Skins.js"></script>
+		<script src="Sounds.js"></script>
+		<script src="Storage.js"></script>
+		<script src="Menu.js"></script>
+		<script src="Impossible.js"></script>
+		<script src="lvlMenu.js"></script>
+		<script src="level1.js"></script>
+		<script src="level2.js"></script>
+		<script src="Levels.js"></script>
+		
+		<!-- Title -->
+		<title>The Impossible Game</title>
+		
+		<link rel="shortcut icon" href="Images/guitar4.png" />
+	</head>
+	<body onload='init()'>
+		<div id="game">
+			
+			<!-- Place for the title of the game -->
+			<h1 id="large"> The Impossible Game </h1>
+			
+			<!-- Place for the game itself (the window in which the game is displayed) -->
+			<div id="window">
+				<canvas id="canvas" width="600" height="400"></canvas>
+			</div>
+			
+			<!-- The display emplacement of the score -->
+			<div id="score"></div>
+			
+			<!-- The display emplacement of the top scores -->
+			<div id="topScores"></div>
+			
+			<!--Actions as game saving, game loading, etc -->
+			<div id="actions"></div>
+			
+			<!-- Place for level buttons -->
+			<div id="levels"></div>
+			
+			<!-- Place for images -->
+			<div id="images"></div>
+			
+			<!-- Place for musics -->
+			<div id="music"></div>
+			
+		</div>
+	</body>
+</html>
