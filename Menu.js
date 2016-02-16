@@ -293,7 +293,7 @@ function set_buttons() {
 		Game.background = new Framework("#003333", "#00CCCC", "white");
 		normalButton.hide();
 		rockButton.show();
-		$("#large").text("The Impossible Game");
+		$("#large").text("Rockpossible Game");
 	});
 	
 	/* function launched when the skins button is clicked on */
